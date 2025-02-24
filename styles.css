@@ -9,9 +9,6 @@
 
 .container > div {
     background-color: palegoldenrod;
-    border: solid;
-    border-width: 2px;
     padding: 0px;
     margin: 0px;
-    flex: 1;
 }
