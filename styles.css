@@ -1,8 +1,8 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    height: 800px;
-    width: 800px;
+    height: 900px;
+    width: 900px;
     padding: 0px;
     margin: 0px;
 }
@@ -15,8 +15,19 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: black;
+}
+
+button {
+    margin: 10px;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 15px 32px;
 }
