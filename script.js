@@ -1,5 +1,5 @@
 const container = document.querySelector('.container')
-let size
+let size = 16 // default size
 
 // create a size x size grid
 function createGrid(size) {
@@ -48,4 +48,4 @@ function resetGrid() {
     createGrid(size)
 }
 
-createGrid(16)
+createGrid(size)
